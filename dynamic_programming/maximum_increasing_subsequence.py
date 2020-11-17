@@ -15,6 +15,8 @@ def longest_increasing_subsequence(sequence):
     return max(counts)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':                                           #it shows at which module it is
     sequence = [1, 101, 10, 2, 3, 100, 4, 6, 2]
     assert 5 == longest_increasing_subsequence(sequence)
+    
+    
